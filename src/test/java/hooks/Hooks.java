@@ -24,7 +24,7 @@ public class Hooks {
         options.addArguments("--disable-blink-features=AutomationControlled"); // hides automation
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         options.setExperimentalOption("useAutomationExtension", false);
-        options.addArguments("--headless"); // no UI in Docker
+       //options.addArguments("--headless"); // no UI in Docker
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");

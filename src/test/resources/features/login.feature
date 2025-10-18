@@ -4,4 +4,4 @@ Feature: Google search feature
     Given user launches Chrome browser
     When user opens Google homepage
     Then page title should contain "Google"
-    And user searches for ""
+    And user searches for "facebook"
